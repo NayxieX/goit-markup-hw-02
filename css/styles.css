@@ -18,7 +18,7 @@ a {
 
 .hero-h1 {
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -27,6 +27,15 @@ a {
 .section-h2 {
   font-size: 36px;
   line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.section-h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -95,7 +104,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .hero-button:hover,
@@ -105,13 +114,6 @@ a {
 
 /* Section Skills */
 
-.section-skills-h3 {
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
 .section-skills-p {
   font-size: 16px;
   line-height: 1.5;
@@ -120,14 +122,6 @@ a {
 }
 
 /* Section Our Team */
-
-.section-our-team-h3 {
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
 
 .section-our-team-p {
   font-size: 16px;
@@ -145,13 +139,6 @@ a {
 
 .section-our-portfolio {
   background-color: #f4f4fd;
-}
-
-.section-our-portfolio-h3 {
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .section-our-portfolio-p {
