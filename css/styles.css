@@ -25,6 +25,7 @@ a {
 }
 
 .section-h2 {
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
@@ -39,6 +40,13 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+}
+
+.section-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* Header */
@@ -111,14 +119,11 @@ a {
 
 /* Section Skills */
 
-.section-skills-p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
 /* Section Our Team */
+
+.section-our-team {
+  background-color: #f4f4fd;
+}
 
 .section-our-team-p {
   font-size: 16px;
