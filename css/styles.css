@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 
-h1 {
+.hero-h1 {
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
@@ -24,7 +24,7 @@ h1 {
   color: #fff;
 }
 
-h2 {
+.section-h2 {
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
@@ -142,6 +142,10 @@ h2 {
 }
 
 /* Section Our Portfolio */
+
+.section-our-portfolio {
+  background-color: #f4f4fd;
+}
 
 .section-our-portfolio-h3 {
   font-size: 20px;
