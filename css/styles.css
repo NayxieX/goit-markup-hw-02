@@ -14,16 +14,91 @@ ol {
 
 a {
   text-decoration: none;
-  color: inherit;
-  cursor: pointer;
 }
 
-.item-adress:focus,
-.item-adress:hover {
-  font-family: "Roboto", sans-serif;
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo .accent-logo {
+  color: #2e2f42;
+}
+
+.footer-logo .accent-logo {
+  color: #f4f4fd;
+}
+
+.link-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-link {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contacts-link:focus,
+.link-header:hover,
+.link-header:focus,
+.contacts-link:hover {
   color: #404bbf;
+}
+
+.hero-section {
+  background: #2e2f42;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-button {
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+
+.hero-button-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #404bbf;
+}
+
+.page-footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
