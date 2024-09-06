@@ -97,9 +97,6 @@ a {
 .hero-button {
   cursor: pointer;
   background: #4d5ae5;
-}
-
-.hero-button-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
