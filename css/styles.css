@@ -24,7 +24,7 @@ a {
   color: #fff;
 }
 
-.section-h2 {
+.section-text {
   font-size: 36px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -32,7 +32,7 @@ a {
   color: #2e2f42;
 }
 
-.section-h3 {
+.section-info-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -151,7 +151,7 @@ a {
 
 /* Footer */
 
-.page-footer {
+.footer {
   background-color: #2e2f42;
 }
 
