@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 
-.hero-h1 {
+.hero-text {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -90,7 +90,7 @@ a {
 
 /* Hero Section */
 
-.hero-section {
+.section-hero {
   background: #2e2f42;
 }
 
