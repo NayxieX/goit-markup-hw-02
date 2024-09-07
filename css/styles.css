@@ -32,10 +32,7 @@ a {
   color: #2e2f42;
 }
 
-.section-info-text,
-.section-skills-p,
-.section-our-team-p,
-.section-our-portfolio-p {
+.section-info-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -114,7 +111,9 @@ a {
 
 /* Section Skills */
 
-.section-skills-p {
+.section-skills-p,
+.section-our-team-p,
+.section-our-portfolio-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -123,16 +122,8 @@ a {
 
 /* Section Our Team */
 
-.section-our-team-p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
-}
-
 .section-our-team-item {
-  background: #fff;
+  background: #ffffff;
 }
 
 /* Section Our Portfolio */
