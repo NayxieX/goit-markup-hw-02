@@ -28,6 +28,7 @@ a {
 
 .section-title {
   text-transform: capitalize;
+  line-height: 1.11;
 }
 
 .skills-item-title,
