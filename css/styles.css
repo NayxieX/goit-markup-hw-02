@@ -32,7 +32,10 @@ a {
   color: #2e2f42;
 }
 
-.section-info-text {
+.section-info-text,
+.section-skills-p,
+.section-our-team-p,
+.section-our-portfolio-p {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
