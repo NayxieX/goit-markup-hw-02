@@ -122,6 +122,10 @@ a {
 
 /* Section Our Team */
 
+.section-our-team {
+  background-color: #f4f4fd;
+}
+
 .section-our-team-item {
   background: #ffffff;
 }
