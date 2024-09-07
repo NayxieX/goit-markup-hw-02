@@ -16,15 +16,9 @@ a {
   text-decoration: none;
 }
 
-.hero-text {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #ffffff;
-}
+/* Global title/paragraph options */
 
-.section-text {
+.title {
   font-size: 36px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -32,13 +26,26 @@ a {
   color: #2e2f42;
 }
 
-.section-info-text {
+.section-title {
+  text-transform: capitalize;
+}
+
+.skills-item-title,
+.team-item-title,
+.portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* Header */
@@ -90,6 +97,14 @@ a {
 
 /* Hero Section */
 
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
 .section-hero {
   background: #2e2f42;
 }
@@ -111,22 +126,13 @@ a {
 
 /* Section Skills */
 
-.section-skills-p,
-.section-our-team-p,
-.section-our-portfolio-p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
 /* Section Our Team */
 
 .section-our-team {
   background-color: #f4f4fd;
 }
 
-.section-our-team-item {
+.team-item {
   background: #ffffff;
 }
 
@@ -135,15 +141,7 @@ a {
 .section-our-portfolio {
   background-color: #f4f4fd;
 }
-
-.section-our-portfolio-p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.section-our-portfolio-item {
+.portfolio-item {
   background: #fff;
 }
 
@@ -153,9 +151,6 @@ a {
   background-color: #2e2f42;
 }
 
-.footer-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.footer-paragraph {
   color: #f4f4fd;
 }
