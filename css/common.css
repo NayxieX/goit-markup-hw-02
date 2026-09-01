@@ -1,0 +1,22 @@
+/* Global title/paragraph options */
+
+.title {
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.section-title {
+  text-transform: capitalize;
+  line-height: 1.11;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
