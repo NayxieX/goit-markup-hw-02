@@ -1,22 +1,19 @@
-/* Global title/paragraph options */
-
-.title {
-  font-size: 36px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
+body {
+  font-family: "Roboto", sans-serif;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
-.section-title {
-  text-transform: capitalize;
-  line-height: 1.11;
+ul {
+  list-style: none;
 }
 
-.paragraph {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
 }
